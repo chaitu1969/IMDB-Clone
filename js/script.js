@@ -70,4 +70,4 @@ async function handleMovieTitle(result) {
   }
 }
 
-searchBar.addEventListener("input", inputHandle);
+searchBar.addEventListener("keyup", inputHandle);
